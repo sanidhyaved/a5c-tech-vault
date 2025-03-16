@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronRight } from 'lucide-react';
+import Logo from './Logo';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,13 +40,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <NavLink 
-          to="/" 
-          className="flex items-center space-x-2"
-          onClick={closeMenu}
-        >
-          <span className="text-xl md:text-2xl font-bold text-gradient">A5C TECH</span>
-        </NavLink>
+        <Logo size={scrolled ? 'sm' : 'md'} />
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
