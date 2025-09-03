@@ -92,19 +92,19 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={18} className="text-a5c-purple mt-1 mr-2" />
                 <span className="text-muted-foreground">
-                  123 Security Street, Cyber City, 10001
+                  Indore, Madhya Pradesh, India - 452002
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone size={18} className="text-a5c-purple mr-2" />
-                <a href="tel:+11234567890" className="text-muted-foreground hover:text-white transition-colors">
-                  +1 (123) 456-7890
+                <a href="tel:+91 6268388938" className="text-muted-foreground hover:text-white transition-colors">
+                  +91 6268388938
                 </a>
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="text-a5c-purple mr-2" />
-                <a href="mailto:info@a5ctech.com" className="text-muted-foreground hover:text-white transition-colors">
-                  info@a5ctech.com
+                <a href="mailto:a5ctech@gmail.com" className="text-muted-foreground hover:text-white transition-colors">
+                  a5ctech@gmail.com
                 </a>
               </li>
             </ul>
