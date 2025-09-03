@@ -7,28 +7,16 @@ import { Link } from 'react-router-dom';
 const About = () => {
   const teamMembers = [
     {
-      name: 'Jane Doe',
+      name: 'Himanshu Chouhan',
       position: 'CEO & Founder',
-      bio: 'Security expert with over 15 years of experience in vulnerability assessment and penetration testing.',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=250&h=250&auto=format&fit=crop'
+      bio: 'Security expert with over 7+ years of experience in vulnerability assessment and penetration testing.',
+      image: ''
     },
     {
-      name: 'John Smith',
-      position: 'Chief Security Officer',
-      bio: 'Former government security consultant with expertise in network security and advanced threat protection.',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=250&h=250&auto=format&fit=crop'
-    },
-    {
-      name: 'Emily Johnson',
-      position: 'Lead Penetration Tester',
-      bio: 'Certified ethical hacker with a passion for finding and fixing security vulnerabilities.',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=250&h=250&auto=format&fit=crop'
-    },
-    {
-      name: 'Michael Wong',
-      position: 'Security Compliance Expert',
-      bio: 'Specializes in regulatory compliance including PCI DSS, HIPAA and ISO 27001 implementations.',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=250&h=250&auto=format&fit=crop'
+      name: 'Sanidhya Ved',
+      position: 'CEO & Founder',
+      bio: 'Security expert with over 4+ years of experience in vulnerability assessment and penetration testing.',
+      image: ''
     }
   ];
 
@@ -113,7 +101,7 @@ const About = () => {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-sm uppercase tracking-wider text-a5c-purple mb-3">Our Story</h2>
-              <h3 className="text-3xl font-bold mb-6">Pioneering Security Excellence Since 2010</h3>
+              <h3 className="text-3xl font-bold mb-6">Pioneering Security Excellence Since 2024</h3>
               <div className="space-y-4 text-muted-foreground">
                 <p>
                   A5C Tech was founded with a simple mission: to provide businesses with the highest level of security assessment and protection services. What began as a small team of security enthusiasts has grown into a leading cybersecurity firm trusted by organizations worldwide.
