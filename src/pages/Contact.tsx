@@ -9,17 +9,17 @@ const Contact = () => {
     {
       icon: <MapPin className="h-6 w-6 text-a5c-purple" />,
       title: 'Our Location',
-      details: '123 Security Street, Cyber City, 10001'
+      details: 'Indore, Madhya Pradesh, India - 452002'
     },
     {
       icon: <Phone className="h-6 w-6 text-a5c-purple" />,
       title: 'Phone Number',
-      details: '+1 (123) 456-7890'
+      details: '+91-6268388938', '+91-6377273784'
     },
     {
       icon: <Mail className="h-6 w-6 text-a5c-purple" />,
       title: 'Email Address',
-      details: 'info@a5ctech.com'
+      details: 'a5ctech@gmail.com'
     }
   ];
 
