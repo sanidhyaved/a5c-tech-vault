@@ -102,7 +102,7 @@ const Contact = () => {
               </div>
               <div className="pt-4">
                 <p className="text-muted-foreground">
-                  For general inquiries, please contact: <a href="mailto:info@a5ctech.com" className="text-a5c-purple hover:underline">info@a5ctech.com</a>
+                  For general inquiries, please contact: <a href="mailto:a5ctech@gmail.com" className="text-a5c-purple hover:underline">a5ctech@gmail.com</a>
                 </p>
               </div>
             </motion.div>
@@ -124,7 +124,7 @@ const Contact = () => {
           >
             <div className="aspect-video w-full">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.305935303!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1651245484261!5m2!1sen!2sin" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235526.94958915675!2d75.69903607352782!3d22.72420499694238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1756877231652!5m2!1sen!2sin" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
